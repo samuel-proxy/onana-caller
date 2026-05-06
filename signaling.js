@@ -1,5 +1,5 @@
 const { getUser } = require('./users');
-const { createCall } = require('./callmanager');
+const { createCall } = require('./callManager');
 
 function handleSignaling(ws, data){
     switch(data.type){
